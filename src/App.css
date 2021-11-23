@@ -1,14 +1,14 @@
 :root {
-  --dark: #0C6170;
-  --light: #DBF5F0;
-  --primary: #37BEB0;
-  --secondary: #A4E5E0;
+  --dark: #31352E;
+  --light: #D1E2C4;
+  --primary: #778A35;
+  --secondary: #EBEBE8;
 }
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--light);
+  background-color: var(--secondary);
 }
 
 header, h1, h2, h3, h4 {
@@ -17,7 +17,7 @@ header, h1, h2, h3, h4 {
 
 header {
   margin: 0;
-  background-color: var(--secondary);
+  background-color: var(--light);
   color: var(--dark);
   display: flex;
   justify-content: space-between;
@@ -64,6 +64,13 @@ h3 {
   color: var(--dark);
 }
 
+#logo {
+  width: 500px;
+  height: 100px;
+  margin-left: 1rem;
+  align-items: center;
+}
+
 .heading {
   margin-right: 2%;
   color: var(--dark);
@@ -73,13 +80,14 @@ h3 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-image: url(images/abg.jpg);
+  background-image: url(images/sage.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 300px;
   margin: 0;
   margin-bottom: 2%;
-  border-bottom: 10px solid var(--secondary);
+  border-top: 10px solid var(--primary);
+  border-bottom: 10px solid var(--primary);
 }
 
 .container {
@@ -110,7 +118,7 @@ h3 {
   margin-left: 2%;
 }
 
-img {
+#headshot {
   width: 200px;
   height: 200px;
   border-radius: 20px;
@@ -148,7 +156,7 @@ img {
   position: absolute;
   bottom: 20px;
   padding: 5px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 #paxamour, #mj, #photo {
@@ -178,13 +186,13 @@ img {
   margin-right: 5%;
 }
 
-.resume-card:nth-child(1) {
+.resume-card {
   margin-bottom: 10px;
 }
 
 .resume-header {
-  background-color: var(--primary);
-  color: var(--light);
+  background-color: var(--dark);
+  color: var(--secondary);
   padding: 2%;
 }
 

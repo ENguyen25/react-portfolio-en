@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <h1>Evelyn Nguyen</h1>
+      <img id="logo" src="logo2.png" alt=""></img>
         <ul>
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#work">Work</a></li>
