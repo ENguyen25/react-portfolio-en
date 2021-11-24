@@ -129,6 +129,10 @@ h3 {
   align-items: center;
 }
 
+#bio {
+  font-size: 20px;
+}
+
 .work-cards {
   display: flex;
   flex-wrap: wrap;
