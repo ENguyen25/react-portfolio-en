@@ -150,7 +150,7 @@ h3 {
 }
 
 .content-cards:hover {
-  opacity: 100;
+  opacity: 100%;
   cursor: pointer;
 }
 
