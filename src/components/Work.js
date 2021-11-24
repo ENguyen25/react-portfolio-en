@@ -7,9 +7,11 @@ function Work() {
         <h2 className="heading">Work</h2>
         <div className="content">
             <div className="work-cards">
-                <Cards id='paxamour' title='Paxamour Company Website'/>
-                <Cards id='mj' title='Michael Jackson Fanpage'/>
-                <Cards id='photo' title='Photo Gallery'/>
+                <Cards id='ubiquitous' title='Ubiquitous Happiness' language='JavaScript, Sequelize, Handlebars'/>
+                <Cards id='blog' title='Tech Blog' language='JavaScript, Sequelize, Handlebars'/>
+                <Cards id='lucid' title='LUCID STREAM' language='JavaScript, HTML, CSS'/>
+                <Cards id='weather' title='Weather App' language='JavaScript, HTML, CSS'/>
+                <Cards id='quiz' title='Coding Quiz' language='JavaScript, HTML, CSS'/>
             </div>
         </div>
         </section>
