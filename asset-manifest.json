@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-en/static/css/main.a335f56a.chunk.css",
+    "main.js": "/react-portfolio-en/static/js/main.1ee7da7c.chunk.js",
+    "main.js.map": "/react-portfolio-en/static/js/main.1ee7da7c.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-en/static/js/runtime-main.af53fd8a.js",
+    "runtime-main.js.map": "/react-portfolio-en/static/js/runtime-main.af53fd8a.js.map",
+    "static/js/2.474f44af.chunk.js": "/react-portfolio-en/static/js/2.474f44af.chunk.js",
+    "static/js/2.474f44af.chunk.js.map": "/react-portfolio-en/static/js/2.474f44af.chunk.js.map",
+    "static/js/3.4b6b120b.chunk.js": "/react-portfolio-en/static/js/3.4b6b120b.chunk.js",
+    "static/js/3.4b6b120b.chunk.js.map": "/react-portfolio-en/static/js/3.4b6b120b.chunk.js.map",
+    "index.html": "/react-portfolio-en/index.html",
+    "static/css/main.a335f56a.chunk.css.map": "/react-portfolio-en/static/css/main.a335f56a.chunk.css.map",
+    "static/js/2.474f44af.chunk.js.LICENSE.txt": "/react-portfolio-en/static/js/2.474f44af.chunk.js.LICENSE.txt",
+    "static/media/EvelynNguyen_Resume.7cc0284c.pdf": "/react-portfolio-en/static/media/EvelynNguyen_Resume.7cc0284c.pdf",
+    "static/media/Headshot.01e7f168.jpg": "/react-portfolio-en/static/media/Headshot.01e7f168.jpg",
+    "static/media/App.css": "/react-portfolio-en/static/media/weather.86ca5d6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af53fd8a.js",
+    "static/js/2.474f44af.chunk.js",
+    "static/css/main.a335f56a.chunk.css",
+    "static/js/main.1ee7da7c.chunk.js"
+  ]
+}
