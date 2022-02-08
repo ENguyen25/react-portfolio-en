@@ -1,7 +1,7 @@
 import React from 'react';
 import Experience from './Experience';
 import experiences from '../experience.json';
-import resume from '../EvelynNguyen_Resume.pdf';
+import resume from '../ENguyen_Resume.pdf';
 
 function Resume() {
     return (
