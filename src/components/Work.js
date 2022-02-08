@@ -1,5 +1,6 @@
 import React from 'react';
-import Cards from './Cards'
+import Cards from './Cards';
+import { Link } from 'react-router-dom'
 
 function Work() {
     return (
@@ -7,7 +8,7 @@ function Work() {
         <h2 className="heading">Work</h2>
         <div className="content">
             <div className="work-cards">
-                <Cards id='ubiquitous' title='Ubiquitous Happiness' language='JavaScript, Sequelize, Handlebars' url='/ubiquitous'/>
+                <Link to='/ubiquitous'><Cards id='ubiquitous' title='Ubiquitous Happiness' language='JavaScript, Sequelize, Handlebars'/></Link>
                 <Cards id='friendship' title='Know More Tiers' language='ReactJS, GraphQL, SASS' url='/friendship'/>
                 <Cards id='blog' title='Tech Blog' language='JavaScript, Sequelize, Handlebars' url='/blog'/>
                 <Cards id='weather' title='Weather App' language='JavaScript, HTML, CSS' url='/weather'/>
