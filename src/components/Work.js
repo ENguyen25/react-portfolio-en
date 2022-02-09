@@ -8,7 +8,7 @@ function Work() {
         <h2 className="heading">Work</h2>
         <div className="content">
             <div className="work-cards">
-                <Link to='/ubiquitous'><Cards id='ubiquitous' title='Ubiquitous Happiness' language='JavaScript, Sequelize, Handlebars'/></Link>
+                <Cards id='ubiquitous' title='Ubiquitous Happiness' language='JavaScript, Sequelize, Handlebars' url='/ubiquitous'/>
                 <Cards id='friendship' title='Know More Tiers' language='ReactJS, GraphQL, SASS' url='/friendship'/>
                 <Cards id='blog' title='Tech Blog' language='JavaScript, Sequelize, Handlebars' url='/blog'/>
                 <Cards id='weather' title='Weather App' language='JavaScript, HTML, CSS' url='/weather'/>
