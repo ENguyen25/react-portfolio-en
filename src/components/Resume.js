@@ -6,8 +6,8 @@ import resume from '../ENguyen_Resume.pdf';
 function Resume() {
     return (
         <section className="container" id="resume">
-        <h2 className="heading">Resume</h2>
         <div className="content">
+        <h2>Past Experience</h2>
             {experiences.map(list => <Experience item={list} />)}
         <h4>
           <a href = {resume} target = "_blank">Link to Resume</a>

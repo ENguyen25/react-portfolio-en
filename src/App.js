@@ -1,12 +1,11 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header"
-import Banner from "./components/Banner"
+import Landing from "./components/Landing"
 import AboutMe from "./components/About-Me"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
 import Resume from "./components/Resume"
-import Footer from "./components/Footer"
 import Ubiquitous from "./components/pages/Ubiquitous"
 import Friendship from "./components/pages/Friendship"
 import Blog from "./components/pages/Blog"
@@ -18,9 +17,9 @@ function App() {
     <>
     <BrowserRouter>
     <Header />
-    <Banner />
       <Routes>
-        <Route path="/" element={<AboutMe />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
@@ -31,7 +30,6 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </BrowserRouter>
-    <Footer />
     </>
   );
 }
