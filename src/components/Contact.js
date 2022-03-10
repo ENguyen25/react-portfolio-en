@@ -14,8 +14,9 @@ function Contact() {
                 <br></br>
                 <h3>Email</h3>
                 <p>enguyen6208@gmail.com</p>
-                <p><a id="links" href="https://www.linkedin.com/in/evelyn-ngoc-nguyen/">LinkedIn</a></p>
-                <p><a id="links" href="https://github.com/ENguyen25">GitHub</a></p>
+                <br></br>
+                <h3><a id="links" href="https://www.linkedin.com/in/evelyn-ngoc-nguyen/">LinkedIn</a></h3>
+                <h3><a id="links" href="https://github.com/ENguyen25">GitHub</a></h3>
             </div>
         </div>
         </section>

@@ -6,6 +6,8 @@
   --light: #D1E2C4;
   --primary: #778A35;
   --secondary: white;
+  --fa-primary-color: #778A35;
+  --fa-secondary-color: white;
 }
 
 body {
