@@ -1,18 +1,16 @@
 import React from 'react';
-import Ubiquitous from "./pages/Ubiquitous"
-import Friendship from "./pages/Friendship"
-import Blog from "./pages/Blog"
-import Weather from "./pages/Weather"
-import Quiz from "./pages/Quiz"
+import EpisoFd from './pages/EpisoFd';
+import Ubiquitous from "./pages/Ubiquitous";
+import Friendship from "./pages/Friendship";
+import WOCOTM from './pages/WOCOTM';
 
 function Work() {
     return (
         <div>
+            <EpisoFd />
+            <WOCOTM />
             <Ubiquitous />
             <Friendship />
-            <Blog />
-            <Weather />
-            <Quiz />
         </div>
     )
 }
